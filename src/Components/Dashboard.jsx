@@ -7,7 +7,7 @@ const Dashboard = () => {
     const navigate = useNavigate()
     axios.defaults.withCredentials = true;
     useEffect(() => {
-        axios.get('https://resetpasswordbe-1.onrender.com/auth/verify')
+        axios.get('https://resetpasswordbe-baht.onrender.com/auth/verify')
         .then(res=> {
             if(res.data.status) {
 
