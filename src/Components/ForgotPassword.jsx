@@ -11,7 +11,7 @@ const ForgotPassword = () => {
 
 const handleSubmit = (e) => {
     e.preventDefault();
-    Axios.post("https://resetpasswordbe-1.onrender.com/auth/forgot-password", {
+    Axios.post("https://resetpasswordbe-baht.onrender.com/auth/forgot-password", {
         email 
         }).then(response => {
       if(response.data.status) {
