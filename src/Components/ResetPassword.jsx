@@ -12,7 +12,7 @@ const ResetPassword = () => {
 axios.defaults.withCredentials = true;
 const handleSubmit = (e) => {
     e.preventDefault();
-    axios.post("https://resetpasswordbe-1.onrender.com/auth/reset-password/"+token, {
+    axios.post("https://resetpasswordbe-baht.onrender.com/auth/reset-password/"+token, {
         password 
         }).then(response => {
       if(response.data.status) {
