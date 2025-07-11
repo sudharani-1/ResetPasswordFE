@@ -6,7 +6,7 @@ const Home = () => {
   const navigate = useNavigate()
   axios.defaults.withCredentials = true;
   const handleLogout = () => {
-    axios.get('https://resetpasswordbe-baht.onrender.com/auth/logout')
+    axios.get('https://resetpasswordbe-rz80.onrender.com/auth/logout')
     .then(res => {
       if(res.data.status) {
         navigate('/login')
