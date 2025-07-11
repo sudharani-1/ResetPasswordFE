@@ -12,7 +12,7 @@ const Signup = () => {
 
 const handleSubmit = (e) => {
     e.preventDefault();
-    Axios.post('https://resetpasswordbe-baht.onrender.com/auth/signup', {
+    Axios.post('https://resetpasswordbe-rz80.onrender.com/auth/signup', {
         username, 
         email, 
         password,
